@@ -1,0 +1,14 @@
+<div class="ui container">
+    <div class="ui stackable four column grid">
+      ttt
+      <div class="column" *ngFor="let page of pages">
+        <app-shortcuts class="cards ui" [title]=page.title
+          [image]="page.image"
+          [url]="page.url"
+          [description]="page.description">
+        </app-shortcuts>
+
+      </div>
+  
+  </div>
+</div>
